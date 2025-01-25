@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* START: Adding CSS for Home Component Typing Animation */
+.typing-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #00f0ff;
+    animation: typing 4s steps(20, end) infinite, blink 0.7s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #00f0ff;
+    }
+  }
+  
+/* END: Adding CSS for Home Component Typing Animation */
+
+/* START: HOME COMPONENT */
+
+.animate-glow {
+  @apply animate-pulse;
+}
+
+.glow {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.4), 0 0 6px rgba(255, 255, 255, 0.2);
+}
+/* END: HOME COMPONENT */
+
+/* START: BackdropBG */
+  .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Start: MyModal */
+  .myModal {
+    width: clamp(50%, 700px, 90%);
+    height: min(50%, 300px);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+  /* End: MyModal */
+/* END: BackdropBG */ 
+

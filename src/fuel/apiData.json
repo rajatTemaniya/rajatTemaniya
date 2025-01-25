@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "isActive": true,
+    "companyName": "Nuvolo Technologies India Pvt Ltd",
+    "startDate": "Jan 2024",
+    "endDate": "Present",
+    "designation": "Software Engineer II",
+    "projects": [
+      {
+        "projectName": "Nuvolo v1",
+        "type": "Product",
+        "downloads": "5k+"
+      },
+      {
+        "projectName": "Nuvolo v2",
+        "type": "Product",
+        "downloads": "5k+"
+      }
+    ],
+    "bulletPoints": [
+      "Collaborated with product team",
+      "Implemented new features",
+      "Resolved bugs and issues"
+    ]    
+  },
+  {
+    "id": 2,
+    "isActive": true,
+    "companyName": "Excellon Pvt Ltd",
+    "startDate": "Dec 2021",
+    "endDate": "Dec 2023",
+    "designation": "Software Developer",
+    "projects": [
+      {
+        "projectName": "KTM India",
+        "type": "Service",
+        "downloads": "100k"
+      },
+      {
+        "projectName": "Husqvarna Motorcycles",
+        "type": "Service",
+        "downloads": "5k"
+      },
+      {
+        "projectName": "Sales App",
+        "type": "Product",
+        "downloads": ""
+      }
+    ],
+    "bulletPoints":[
+      "Led and mentored team",
+      "Managed multiple projects",
+      "Worked closely with clients"
+    ]    
+  },
+  {
+    "id": 3,
+    "isActive": true,
+    "companyName": "Shezartech (Mahindra & Mahindra)",
+    "startDate": "March 2020",
+    "endDate": "Dec 2021",
+    "designation": "Software Engineer",
+    "projects": [
+      {
+        "projectName": "Mahindra Teknet",
+        "type": "Service",
+        "downloads": "100k"
+      },
+      {
+        "projectName": "CCM",
+        "type": "Service",
+        "downloads": "5k"
+      },
+      {
+        "projectName": "Sales App",
+        "type": "Product",
+        "downloads": ""
+      }
+    ],
+    "bulletPoints": [
+      "Worked on 3 major projects",
+      "Collaborated with clients",
+      "Fixed bugs and improved performance"
+    ] 
+  },
+  {
+    "id": 4,
+    "isActive": true,
+    "companyName": "Prointen Pvt Ltd",
+    "startDate": "April 2019",
+    "endDate": "Jan 2020",
+    "designation": "Mobile Application Developer",
+    "projects": [
+      {
+        "projectName": "Hotel Jobber Jobs",
+        "type": "Service",
+        "downloads": "10k"
+      },
+      {
+        "projectName": "Hotel Jobber Employer",
+        "type": "Service",
+        "downloads": "10k"
+      }
+    ],
+    "bulletPoints": [
+      "Developed recruiter app for hotels",
+      "Created job portal for hotel industry"
+    ]    
+  },
+  {
+    "id": 5 ,
+    "isActive": true,
+    "companyName": "Hotwax Pvt Ltd",
+    "startDate": "Jun 2018",
+    "endDate": "Feb 2019",
+    "designation": "Enterprise Software Engineer",
+    "projects": [
+      {
+        "projectName": "E-Commerce Product App",
+        "type": "Product",
+        "downloads": ""
+      },
+      {
+        "projectName": "Apache Camel POC",
+        "type": "POC",
+        "downloads": ""
+      }
+    ],
+    "bulletPoints":[
+      "Built warehouse management app",
+      "Enhanced UI and functionalities",
+      "Explored Apache Camel (Java DSL)"
+    ]
+  }
+]
