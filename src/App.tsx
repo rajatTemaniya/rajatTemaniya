@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./main.css";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.tsx";
 import Experience from "./components/Experience.tsx";
 import FloatingBackground from "./components/FloatingBG.tsx";
@@ -18,7 +18,7 @@ const App: React.FC = () => {
   );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -39,7 +39,7 @@ const appRouter = createBrowserRouter([
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <FloatingBackground>
-      <RouterProvider router={appRouter} />
+      <RouterProvider router={appRouter}  />
     </FloatingBackground>
   </StrictMode>
 );
