@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import RectAngleCard from "./atoms/RectAngleCard";
 import MyImage2 from "../assets/rajatTemaniya.jpg";

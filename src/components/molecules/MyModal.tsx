@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import BackDropBG from "../atoms/BackDropBG";
-import RectAngleCard from "../atoms/RectAngleCard";
 
 interface propsType {
   children: React.ReactNode;
